@@ -9,5 +9,11 @@
 h1 {
   font-size: 3rem;
 }
+.App{
+  background: linear-gradient(90deg, rgb(248, 224, 89) 0%,
+  rgb(226, 18, 98) 100%);
+  min-height: 100vh;
+  color: white;
+}
 @import './song';
 @import './Player';

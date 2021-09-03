@@ -11,6 +11,13 @@ h1 {
   font-size: 3rem;
 }
 
+.App {
+  background: -webkit-gradient(linear, left top, right top, from(#f8e059), to(#e21262));
+  background: linear-gradient(90deg, #f8e059 0%, #e21262 100%);
+  min-height: 100vh;
+  color: white;
+}
+
 .song-container {
   min-height: 60vh;
   display: -webkit-box;
