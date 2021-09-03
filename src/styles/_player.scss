@@ -1,0 +1,42 @@
+
+.player-container{
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+     .time-control{
+       width: 50%;
+       font-size: 3rem;
+       display: flex;
+       input{
+         width: 100%;
+         padding: 1rem 2rem;
+       }
+         p{
+           padding: 1rem;
+         }
+     }
+  }
+.playPause-control{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  svg{
+    cursor: pointer;
+  }
+    .play{
+      width: 3rem;
+      height: 3rem;
+    }
+    .playBack{
+      width: 3rem;
+      height: 3rem;
+    }
+    .playFoward{
+      width: 3rem;
+      height: 3rem;
+    }
+  }

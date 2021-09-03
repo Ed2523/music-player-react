@@ -1,0 +1,10 @@
+.song-container{
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1{
+      margin-top: 1rem;
+    }
+  }
